@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Inter";
+  color: #000000;
+  font-weight: 300;
+}
+.navbar {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #C73131;
+}
+.navbar h1 {
+  color: #000000;
+}
+.navbar h2 {
+  color: #ffffff;
+  font-weight: 500;
+  text-indent: 50px;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color:#ffffff
+}
+.navbar a:hover {
+  color: #a2a2a2;
+}
+.content {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.Startseite button {
+  background: #C73131;
+  color: #ffffff;
+  border: none;
+  width: 200px;
+  height: 150px;
+  border-radius: 0px;
+  cursor: pointer;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 60px;
+  margin-right:60px;
+}
+.Startseite button:hover {
+  background-color: #d75959; 
+  color: white;
+}
+.Startseite h3 {
+  color:#ffffff
+}
+.Einstellungen button {
+  margin: 20px;
+}
+.Impressum h2{
+  color: #000000;
+}
